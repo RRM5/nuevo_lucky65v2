@@ -17,8 +17,8 @@
 #pragma once
 
 /* USB */
-#define manufacturer "Lucky65V2"
-#define keyboard_name "Lucky65V2"
+//#define manufacturer "Lucky65V2"
+//#define keyboard_name "Lucky65V2"
 //#define usb.vid 0x342d
 //#define usb.pid 0xe407
 //#define usb.device_version 0x0001
