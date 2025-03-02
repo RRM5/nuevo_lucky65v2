@@ -1,0 +1,22 @@
+{
+    "manufacturer": "RM5",
+    "keyboard_name": "Lucky65v2",
+    "maintainer": "qmk",
+    "bootloader": "wb32-dfu",
+    "eeprom": {
+        "driver": "wear_leveling",
+        "wear_leveling": {
+            "driver": "spi_flash"
+        }
+    },
+    "mouse_key": {
+        "enabled": false
+    },
+    "processor": "WB32FQ95",
+    "url": "",
+    "usb": {
+        "device_version": "0.0.1",
+        "pid": "0xE407",
+        "vid": "0x342D"
+    }
+}
