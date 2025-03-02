@@ -53,7 +53,7 @@ ifeq ($(strip $(CONSOLE_ENABLE)), yes)
 endif
 
 ifeq ($(strip $(HAPTIC_ENABLE)), yes)
-    HAPTIC_DRIVER = solenoid
+    HAPTIC_DRIVER += SOLENOID
 endif
 
 ifeq ($(strip $(RGB_MATRIX_DRIVER)), WB32RGB)
