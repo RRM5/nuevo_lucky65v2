@@ -1,7 +1,7 @@
 {
-    "manufacturer": "RM5",
+    "manufacturer": "Weikav",
     "keyboard_name": "Lucky65v2",
-    "maintainer": "qmk",
+    "maintainer": "RM5",
     "bootloader": "wb32-dfu",
     "eeprom": {
         "driver": "wear_leveling",
