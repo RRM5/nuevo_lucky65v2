@@ -17,11 +17,11 @@
 #pragma once
 
 /* USB */
-#define MANUFACTURER "Lucky65V2"
-#define PRODUCT "Lucky65V2"
-#define VENDOR_ID 0x342d
-#define PRODUCT_ID 0xe407
-#define DEVICE_VER 0x0001
+#define manufacturer "Lucky65V2"
+#define keyboard_name "Lucky65V2"
+//#define usb.vid 0x342d
+//#define usb.pid 0xe407
+//#define usb.device_version 0x0001
 #define FORCE_NKRO
 #define USB_SUSPEND_WAKEUP_DELAY 1000
 
@@ -142,7 +142,7 @@
 #define RGB_MATRIX_DEFAULT_VAL 200
 #define RGB_MATRIX_SPD_STEP 25
 #define RGB_MATRIX_DEFAULT_SPD 75
-#define RGB_DISABLE_WHEN_USB_SUSPENDED
+#define RGB_MATRIX_SLEEP
 #define RGB_MATRIX_FRAMEBUFFER_EFFECTS
 #define RGB_MATRIX_KEYPRESSES
 #define RGB_TRIGGER_ON_KEYDOWN
