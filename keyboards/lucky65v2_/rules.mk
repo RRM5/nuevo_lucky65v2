@@ -23,8 +23,8 @@ RGB_MATRIX_BLINK_ENABLE = yes  # RGB matrix blink
 HAPTIC_ENABLE = no             # Haptic
 MULTIMODE_ENABLE = yes         # three mode
 
-EEPROM_DRIVER = wear_leveling
-WEAR_LEVELING_DRIVER = spi_flash
+#EEPROM_DRIVER = wear_leveling
+#WEAR_LEVELING_DRIVER = spi_flash
 
 ifeq ($(strip $(MULTIMODE_ENABLE)), yes)
     MULTIMODE_DRIVER = uart3
