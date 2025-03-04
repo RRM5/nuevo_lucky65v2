@@ -3,20 +3,40 @@
     "keyboard_name": "Lucky65v2",
     "maintainer": "RM5",
     "bootloader": "wb32-dfu",
+    "bootmagic": {
+        "enabled": true
+    },
+    "debounce": 8,
+    "diode_direction": "ROW2COL",
+    "dynamic_keymap": {
+        "layer_count": 6
+    },
     "eeprom": {
         "driver": "wear_leveling",
         "wear_leveling": {
             "driver": "spi_flash"
         }
     },
+    "encoder": {
+        "enabled": true
+    },
     "mouse_key": {
         "enabled": false
     },
     "processor": "WB32FQ95",
+    "rgb_matrix": {
+        "max_brightness": 200,
+        "speed_steps": 25,
+        "val_steps": 20
+    },
+    "rgblight": {
+        "pin": "B15"
+    },
     "url": "",
     "usb": {
         "device_version": "0.0.1",
         "pid": "0xE407",
+        "suspend_wakeup_delay": 1000,
         "vid": "0x342D"
     }
 }
